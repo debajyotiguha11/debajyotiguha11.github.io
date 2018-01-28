@@ -69,7 +69,7 @@
 			<ul id="nav-list">
 				<li><a href="https://github.com/debajyotiguha11/" target="_blank">GitHub</a></li>
 				<li><a href="https://www.linkedin.com/in/debajyotiguha11/" target="_blank">LinkedIn</a></li>
-				<li><a href="skills/index.html" target="_blank" >Skills</a></li>
+				<li><a href="skills/index.php" target="_blank" >Skills</a></li>
 				<li><a href="http://coders.uphero.com/hack_tech/" target="_blank">Project Page</a></li>
 			</ul>
 		</nav>
