@@ -13,6 +13,54 @@
     window.onload = window.print();
 }, 4000);
 </script>
+<style>
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
 </head>
 
 <body>
@@ -111,16 +159,64 @@ I'm an active member of our college software development club, and CEO of CODERS
     <!--end honorsAwards-->
     <div class="clear"></div>
     <!--AS SEEN ON TITLE-->
-    <h2 id="eye" class="sectionHead">Certificates</h2>
+    <h2 id="eye" class="sectionHead">Achievements &amp; Certificates</h2>
     <!--AS SEEN ON-->
     <center><ul id="seenOn">
-      <li class="bwWrapper"><img src="images/DEBJYOTI-GUHA-Participant-Certificate1.jpg" alt="C" /></li>
-      <li class="bwWrapper"><img src="images/DEBJYOTI-GUHA-Participant-Certificate2.jpg" alt="C++" /></li>
-      <li class="bwWrapper"><img src="images/RCLD1.jpg" alt="DCA" /></li>
-      <li class="bwWrapper"><img src="images/RCLD2.jpg" alt="DCA" /></li>
-    </ul>
-    <!--end seenOn-->
-    <div class="clear"></div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/google.png">
+      <img src="images/google.png" alt="Google Scholar Android App Development" width="600" height="400">
+    </a>
+    <div class="desc">Scholarship in Android App Development by Google and Udacity</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://www.youracclaim.com/badges/29a25d1b-13f6-488e-91e2-109854aa3e6c/public_url">
+      <img src="images/ibm-blockchain-essentials.png" alt="IBM Blockchain Certification" width="600" height="400">
+    </a>
+    <div class="desc">Certified IBM Blockchain technology</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/DEBJYOTI-GUHA-Participant-Certificate1.jpg">
+      <img src="images/DEBJYOTI-GUHA-Participant-Certificate1.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">C Certifiction </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/DEBJYOTI-GUHA-Participant-Certificate2.jpg">
+      <img src="images/DEBJYOTI-GUHA-Participant-Certificate2.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">C++ Certification</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/RCLD1.jpg">
+      <img src="images/RCLD1.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">DCA</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/RCLD2.jpg">
+      <img src="images/RCLD2.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">DCA</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
     
     <div class="clear"></div>
 	<button onclick="myFunction()" id="printpagebutton">Print this page</button></center>
